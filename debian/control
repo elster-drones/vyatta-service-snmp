@@ -36,11 +36,11 @@ Depends: libsocket-perl,
  ${misc:Depends},
  ${perl:Depends},
  python3,
- vyatta-dataplane-op-npf-op-0 | vyatta-dataplane-op-npf-op-1,
  vyatta-mibs-misc (>= 0.4),
  vyatta-omrfc5676,
  vyatta-platform-util,
  vyatta-entity-sensor-subagent,
+Recommends:  vyatta-dataplane-op-npf-op-0 | vyatta-dataplane-op-npf-op-1,
 Breaks: vyatta-cfg-system (<< 1.6.0), vyatta-op (<< 1.0)
 Replaces: vyatta-cfg-system (<< 1.6.0), vyatta-op (<< 1.0)
 Provides: libvyatta-ifmib-perl
